@@ -1,0 +1,53 @@
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 49px;
+    line-height: 56px;
+    font-weight: normal;
+    color: #ffffff;
+}
+h1 span {
+    font-weight: bold;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+span {
+    color: #ffffff;
+    font-weight: bold;
+
+}
+p, footer {
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 28px;
+}
+footer {
+    background-color: #FFF;
+}
+#hero {
+    width: 592px;
+    margin:  0 auto 72px;
+}
+a + a{
+    margin-left: 28px;
+}
+.line {
+    width: 900px;
+    height: auto;
+    margin: auto;
+    border: 1px #eceff2 solid;
+    color: #ffffff;
+}
+body {
+    background-color: steelblue;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: stretch;
+} 
